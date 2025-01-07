@@ -3,12 +3,12 @@ import Footer from "@/components/partials/Footer";
 import Header from "@/components/partials/Header";
 import React from "react";
 import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import Skills from "./Projects";
 
 const About = () => {
   return (
     <>
       <section className="">
-        <Header />
         <div>
           <div className="container">
             <div className="grid grid-cols-2 items-center mb-[7.8rem]">
@@ -30,7 +30,6 @@ const About = () => {
                   <h1></h1>
                 </div>
               </div>
-
               <div className=" border-2 border-line p-4 border-primary relative mt-16">
                 <div>
                   <h2 className="absolute font-bold pt-4 bottom-[18.5rem] bg-light">
@@ -75,7 +74,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        <Footer />
       </section>
     </>
   );
